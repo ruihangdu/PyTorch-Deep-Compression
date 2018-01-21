@@ -1,4 +1,4 @@
-# PyTorch-Deep-Compression
+# PyTorch Deep Compression
 
 A PyTorch implementation of the iterative pruning method described in Han et. al. (2015)
 The original paper: [Learning both Weights and Connections for Efficient Neural Networks](https://arxiv.org/abs/1506.02626)
