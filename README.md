@@ -25,6 +25,8 @@ The default architecture is AlexNet (other architectures in torch.vision package
 | LeNet-5 | 98.8% | N/A | 92% |
 | AlexNet | 39% | 63% | 85.99% |
 
+Note: To achieve better results, try to twick the alpha hyperparameter to change the pruning rate of each layer.
+
 ## ToDo
 - [ ] clean up the code in prune_generic.py
 
