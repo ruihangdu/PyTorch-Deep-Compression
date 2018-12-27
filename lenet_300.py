@@ -1,8 +1,4 @@
-import torch
-
-from torch.autograd import Variable
-import torch.nn as nn
-import torch.nn.functional as F
+from libs import *
 
 class LeNet_300_100(nn.Module):
     def __init__(self):
@@ -13,6 +9,7 @@ class LeNet_300_100(nn.Module):
 
     def forward(self, x):
         x = x.view(-1, self.num_flat_features(x))
+        return self.l3(self.l2(self.l1(x)))
 
 
     def num_flat_features(self, x):
