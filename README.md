@@ -5,7 +5,8 @@ The original paper: [Learning both Weights and Connections for Efficient Neural 
 
 ## Usage
 
-The *libs* package contains the compression script and other utilities needed.
+The *libs* package contains utilities needed,
+and *compressor.py* defines a *Compressor* class that allows pruning a network layer-by-layer.
 
 The file *iterative_pruning.py* contains function *iter_prune* which achieves iterative pruning.
 

@@ -1,4 +1,4 @@
-from . import *
+from libs import *
 
 
 class Compressor(object):

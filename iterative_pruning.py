@@ -1,6 +1,4 @@
-from libs import *
-from libs.utils import *
-from libs.compressor import *
+from compressor import *
 
 
 def iter_prune(args, data_func=get_loaders, model_class=None, **kwargs):
